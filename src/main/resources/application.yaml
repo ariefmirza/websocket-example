@@ -1,0 +1,8 @@
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:8092/v1/rauth/authorize
+      token-info-uri: http://localhost:8092/v1/rauth/oauth/check_token
+    client:
+      clientId: symcarrier
+      clientSecret: secret
